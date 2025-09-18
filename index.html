@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/totoro.png">
+    <title>The Ghibli Meadow</title>
+
+    <!-- FONTSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Schoolbell&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- HEADER -->
+    <header class="headerzz">
+        <nav class="navbarzz">
+            <h1>The Ghibli Meadow</h1>
+            <div class="navConts">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#movies">Movies</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+            <a href="#" class="navButton">Subscribe</a>
+        </nav>
+    </header>
+
+    <section id="home" class="homeSection">
+        <div class="overlay">
+            <h2>Welcome to The Ghibli Meadow</h2>
+            <p>Step into the magical world of Studio Ghibli ✨</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="aboutSection">
+        <div class="aboutBox">
+            <div class="aboutText">
+                <h2>About</h2>
+                <p>
+                    Studio Ghibli is a Japanese animation studio founded in 1985 by Hayao Miyazaki and Isao Takahata, 
+                    together with producer Toshio Suzuki. Known for its breathtaking hand-drawn animation and deep 
+                    storytelling, the studio has produced some of the most beloved films in cinematic history. <br><br>
+
+                    The company gained worldwide recognition with works such as <em>My Neighbor Totoro</em>, 
+                    <em>Princess Mononoke</em>, and the Academy Award-winning <em>Spirited Away</em>. 
+                    Each film is filled with memorable characters, stunning visual worlds, and themes that touch on 
+                    humanity, nature, and imagination. <br><br>
+                </p>
+            </div>
+            <div class="aboutImage">
+                <img src="assets/BG-KikiDelService.jpg" alt="Hayao Miyazaki">
+            </div>
+        </div>
+        <img src="assets/separator.png">
+    </section>
+
+
+   <!-- MOVIES SECTION -->
+    <section id="movies" class="moviesSection">
+        <h2>Movies</h2>
+        <p>
+            Discover the timeless classics from Ghibli that continue to inspire generations of viewers 
+            around the world.
+        </p>
+
+        <div class="moviesGrid">
+            <!-- Card 1 -->
+            <a href="howlsmovingcastle.html" class="movieCard">
+                <div class="movieImage">
+                    <img src="assets/BG-Characters.jpg" alt="Howl's Moving Castle">
+                </div>
+                <h3>Howl's Moving Castle</h3>
+            </a>
+
+            <!-- Card 2 -->
+            <a href="spiritedaway.html" class="movieCard">
+                <div class="movieImage">
+                    <img src="assets/BG-Characters.jpg" alt="Spirited Away">
+                </div>
+                <h3>Spirited Away</h3>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="totoro.html" class="movieCard">
+                <div class="movieImage">
+                    <img src="assets/BG-Characters.jpg" alt="My Neighbor Totoro">
+                </div>
+                <h3>My Neighbor Totoro</h3>
+            </a>
+        </div>
+        <img src="assets/separator.png">
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallerySection">
+        <h2 class="sectionTitle">Gallery</h2>
+        <p class="sectionDesc">
+            Take a look at some beautiful stills and artwork from the magical worlds of Ghibli.
+        </p>
+
+        <div class="galleryGrid">
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+            <div class="galleryCard">
+                <img src="assets/BG-Characters.jpg" alt="fanart">
+                <span class="artistTag">@kklod</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerzz">
+        <p>© 2025 The Ghibli Meadow. All rights reserved.</p>
+        <p>Made with ❤️ by Dio</p>
+    </footer>
 </body>
 </html>
