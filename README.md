@@ -3,7 +3,7 @@
 
 📌 **Objective:**
 This project is a Front-End Programming assignment with the goal of 
-creating a Blog Website using HTML dan CSS only.
+creating a Blog using HTML dan CSS only.
 
 📌 **Project Structure:**
 1. index.html -> Contains the HTML structure that build the layout of the project
