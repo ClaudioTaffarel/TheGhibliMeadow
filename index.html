@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styling/style.css">
     <link rel="icon" type="image/png" href="assets/totoro.png">
     <title>The Ghibli Meadow</title>
 
     <!-- FONTSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Schoolbell&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,6 +19,8 @@
     <header class="headerzz">
         <nav class="navbarzz">
             <h1>The Ghibli Meadow</h1>
+            <i class='bx bx-menu' id="menu-icon"></i>
+
             <div class="navConts">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
@@ -25,26 +28,27 @@
                 <a href="#articles">Articles</a>
                 <a href="#gallery">Gallery</a>
             </div>
+            
             <a href="#" class="navButton">Subscribe</a>
         </nav>
     </header>
 
 
     <!-- HOME SECTIONN -->
-    <section id="home" class="homeSection">
-        <div class="homeContent">
+    <section id="home" class="homeSectionz">
+        <div class="homeContentzz">
             <h3>Welcome to</h3>
             <h1>The Ghibli Meadow</h1>
             <p>Step into the magical world of Studio Ghibli!</p>
-            <a href="#movies" class="exploreBtn">Explore Movies</a>
+            <a href="#movies" class="exploreBtnzz">Explore Movies</a>
         </div>
     </section>
 
 
     <!-- ABOUT SECTIONN -->
-    <section id="about" class="aboutSection">
-        <div class="aboutBox">
-            <div class="aboutText">
+    <section id="about" class="aboutSectionz">
+        <div class="aboutBoxx">
+            <div class="aboutTextzz">
                 <h2>About</h2>
                 <p>
                     Studio Ghibli is a Japanese animation studio created in 1985 by Hayao Miyazaki and Isao Takahata, 
@@ -57,259 +61,265 @@
                     humanity, nature, and imagination.
                 </p>
             </div>
-            <div class="aboutImage">
+            <div class="aboutImagezz">
                 <img src="assets/trio.jpg" alt="Hayao Miyazaki">
             </div>
         </div>
-        <img src="assets/separator.png">
+        <img src="assets/separator.png" class="separator" alt="separator">
     </section>
 
 
     <!-- MOVIES SECTIONN -->
-    <section id="movies" class="moviesSection">
+    <section id="movies" class="moviesSectionz">
         <h2>Movies</h2>
         <p>
-            Discover the timeless classics from Ghibli that continue to inspire generations of viewers 
-            around the world.
+            Go through the list of the timeless classics from Studio Ghibli
         </p>
 
-        <div class="moviesGrid">
-            <div class="movieCard">
-                <div class="movieImage">
+        <div class="movGridd">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/Kaguya.jpg" alt="The Tale of The Princess Kaguya">
                 </div>
                 <h3>The Tale of The Princess Kaguya</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/spirited-away.jpg" alt="Spirited Away">
                 </div>
                 <h3>Spirited Away</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/marnie.jpg" alt="When Marnie Was There">
                 </div>
                 <h3>When Marnie Was There</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/fireflies.jpg" alt="Grave of the Fireflies">
                 </div>
                 <h3>Grave of the Fireflies</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/princess-mononoke.jpg" alt="Princess Mononoke">
                 </div>
                 <h3>Princess Mononoke</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/arrietty.jpg" alt="The Secret World of Arrietty">
                 </div>
                 <h3>The Secret World of Arrietty</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/pompoko.jpg" alt="Pom Poko">
                 </div>
                 <h3>Pom Poko</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/onlyYesterday.jpg" alt="Only Yesterday">
                 </div>
                 <h3>Only Yesterday</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/ocean waves.jpg" alt="Ocean Waves">
                 </div>
                 <h3>Ocean Waves</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/totorooo.jpg" alt="My Neighbor Totoro">
                 </div>
                 <h3>My Neighbor Totoro</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/wind.jpg" alt="The Wind Rises">
                 </div>
                 <h3>The Wind Rises</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/Nausicaa.jpg" alt="Nausicaa of the Valley of the Wind">
                 </div>
                 <h3>Nausicaa of the Valley of the Wind</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/ponyo.jpg" alt="Ponyo">
                 </div>
                 <h3>Ponyo</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/kiki.jpg" alt="Kiki's Delivery Service">
                 </div>
                 <h3>Kiki's Delivery Service</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/yamadas.png" alt="My Neighbors the Yamadas">
                 </div>
                 <h3>My Neighbors the Yamadas</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/porco rosso.jpg" alt="Porco Rosso">
                 </div>
                 <h3>Porco Rosso</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/howls-moving-castle.jpg" alt="Howl's Moving Castle">
                 </div>
                 <h3>Howl's Moving Castle</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/castle-in-the-skuy.jpg" alt="Castle in the Sky">
                 </div>
                 <h3>Castle in the Sky</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/whisper.jpg" alt="Whisper of the Heart">
                 </div>
                 <h3>Whisper of the Heart</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/poppy.jpg" alt="From Up on Poppy Hill">
                 </div>
                 <h3>From Up on Poppy Hill</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/earthsea.jpg" alt="Tales from Earthsea">
                 </div>
                 <h3>Tales from Earthsea</h3>
             </div>
 
-            <div class="movieCard">
-                <div class="movieImage">
+            <div class="movieCardzz">
+                <div class="movieImagezz">
                     <img src="assets/catreturns.jpg" alt="The Cat Returns">
                 </div>
                 <h3>The Cat Returns</h3>
             </div>
         </div>
-        <img src="assets/separator.png">
+        <img src="assets/separator.png" class="separator" alt="separator">
     </section>
 
+
     <!-- ============ ARTICLES SECTION =========== -->
-    <section id="articles" class="articlesSection">
+    <section id="articles" class="articlesSectionz">
         <h2>Articles</h2>
         <p>
             Explore writings and reflections about the magic of Studio Ghibli's creations.
         </p>
 
-        <div class="articlesGrid">
-            <div class="articleCard">
-                <h3>The Timeless Beauty of Ghibli's Art</h3>
-                <p class="articlePreview">
-                    Studio Ghibli's visual storytelling transcends generations, blending fantasy with
-                    profound human emotions...
+        <div class="articlesGridd">
+            <div class="articleCardd">
+                <h3>Why Miyazaki & Studio Ghibli Still Inspire Thousands Of Creators</h3>
+                <p class="priviuww">
+                    <span>By Sunaina Patnaik | Published: 5 September 2023 </span><br>
+                    Whether you're into anime or not, you cannot not be into Studio Ghibli movies...
                 </p>
                 <a href="articlePages/article1.html" class="readMore">Read more...</a>
             </div>
 
-            <div class="articleCard">
-                <h3>Nature and Spirituality in Princess Mononoke</h3>
-                <p class="articlePreview">
-                    Beyond the battle of humans and gods, the movie explores the delicate balance
-                    between nature and civilization...
+            <div class="articleCardd">
+                <h3>Our Greatest True Love - An Analysis of Howl's Moving Castle</h3>
+                <p class="priviuww">
+                    <span>By Masami Iliffe | Published: 18 January 2024 </span><br>
+                    Studio Ghibli's popularity and success today is evident, from Waterstones selling books...
                 </p>
-                <a href="article2.html" class="readMore">Read more...</a>
+                <a href="articlePages/article2.html" class="readMore">Read more...</a>
             </div>
 
-            <div class="articleCard">
-                <h3>The Timeless Beauty of Ghibli's Art</h3>
-                <p class="articlePreview">
-                    Studio Ghibli's visual storytelling transcends generations, blending fantasy with
-                    profound human emotions...
+            <div class="articleCardd">
+                <h3>Why Studio Ghibli is so popular and how it exports Japanese culture</h3>
+                <p class="priviuww">
+                    <span>By S.E. Kindberg | Published: 22 July 2022 </span><br>
+                    Howl's Moving Castle is a film that attacks the fear of growing up and maturing into an adult...
                 </p>
-                <a href="articlePages/article1.html" class="readMore">Read more...</a>
-            </div>
-
-            <div class="articleCard">
-                <h3>Nature and Spirituality in Princess Mononoke</h3>
-                <p class="articlePreview">
-                    Beyond the battle of humans and gods, the movie explores the delicate balance
-                    between nature and civilization...
-                </p>
-                <a href="article2.html" class="readMore">Read more...</a>
+                <a href="articlePages/article3.html" class="readMore">Read more...</a>
             </div>
         </div>
-        <img src="assets/separator.png">
+        <img src="assets/separator.png" class="separator" alt="separator">
     </section>
 
 
     <!-- GALLERY SECTIONN -->
-    <section id="gallery" class="gallerySection">
-        <h2 class="sectionTitle">Gallery</h2>
-        <p class="sectionDesc">
-            Take a look at some beautiful stills and artwork from the magical worlds of Ghibli.
+    <section id="gallery" class="gallerySectionz">
+        <h2>Gallery</h2>
+        <p>
+            Take a look at some beautiful artworks about Ghibli from Instagram!
         </p>
 
-        <div class="galleryGrid">
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+        <div class="galleryGridd">
+            <div class="galleryCardd">
+                <img src="assets/fan1.png" alt="fanart">
+                <span class="creditzzzz">@soyserrano</span>
             </div>
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+            
+            <div class="galleryCardd">
+                <img src="assets/fan2.png" alt="fanart">
+                <span class="creditzzzz">@lotusbubble</span>
             </div>
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+
+            <div class="galleryCardd">
+                <img src="assets/fan3.png" alt="fanart">
+                <span class="creditzzzz">@barbanianfactory</span>
             </div>
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+
+            <div class="galleryCardd">
+                <img src="assets/fan4.png" alt="fanart">
+                <span class="creditzzzz">@mashushora</span>
             </div>
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+
+            <div class="galleryCardd">
+                <img src="assets/fan5.png" alt="fanart">
+                <span class="creditzzzz">@selahsketches</span>
             </div>
-            <div class="galleryCard">
-                <img src="assets/BG-Characters.jpg" alt="fanart">
-                <span class="artistTag">@kklod</span>
+
+            <div class="galleryCardd">
+                <img src="assets/fan6.png" alt="fanart">
+                <span class="creditzzzz">@naomivandoren</span>
+            </div>
+
+            <div class="galleryCardd">
+                <img src="assets/fan7.png" alt="fanart">
+                <span class="creditzzzz">@ohwelladays</span>
+            </div>
+
+            <div class="galleryCardd">
+                <img src="assets/fan8.png" alt="fanart">
+                <span class="creditzzzz">@joutaro195</span>
             </div>
         </div>
     </section>
@@ -318,7 +328,7 @@
     <!-- FOOTERR -->
     <footer class="footerzz">
         <p>&copy; 2025 The Ghibli Meadow. All rights reserved.</p>
-        <p>Made with Love by Claudio [535240035]</p>
+        <p>Made by Claudio [535240035]</p>
     </footer>
 </body>
 </html>
